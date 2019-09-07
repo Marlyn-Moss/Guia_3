@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaActivity" android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblprincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="AGREGAR A LISTA"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+   <EditText
+       android:id="@+id/txtnombre"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:hint="INGRESE NOMBRE"
+       android:inputType="textPersonName"
+       android:textAlignment="center"></EditText>
+
+
+    <Button
+        android:id="@+id/btnregres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="REGRESAR" />
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Prcesar Informacion" />
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        android:progress="2"
+        />
+</LinearLayout>
